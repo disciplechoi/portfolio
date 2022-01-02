@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <meta name="description" content="Portfolio for Jihye Choi">
+    <meta name="author" content="Jihye Choi">
+
+    <script src="https://kit.fontawesome.com/d94052227f.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="imgs/favicon2.png" />
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="navbar__logo">
+            <img src="imgs/favicon2_w.png" alt="favicon">
+            <a href="#">Disciplechoi</a>
+        </div>
+
+        <div class="navbar__menu">
+            <ul class="navbar__menu">
+                <li class="navbar__menu__item active">Home</li>
+                <li class="navbar__menu__item">About</li>
+                <li class="navbar__menu__item">Skills</li>
+                <li class="navbar__menu__item">My work</li>
+                <!-- <li class="navbar__menu__item">Testimonial</li> -->
+                <li class="navbar__menu__item">Contact</li>
+            </ul>
+        </div>
+
+        <!-- Toggle button -->
+        <button class="navbar__toggle-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+
+    </nav>
+
+    <!-- Home -->
+    <section id="home" >
+        <img src="imgs/profile2.JPG" alt="Disciplechoi's profile photo" class="home__avatar">
+        <h1 class="home__title">Hello, <br/>I'm Jihye Choi</h1>
+        <h2 class="home__description">A Financial Cloud Business Manager currently working in Daegu, Korea</h2>
+        <button class="home__contact">Contact Me</button>
+        
+        <div class="custom-shape-divider-bottom-1641092968">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section id="about" class="section">
+        <div class="section__container">
+            <h1>About me</h1>
+            <p>I am currently on the Cloud Business management team at DGB. <br/>I am responsible for leading the DGB group to understand, develop, and adopt cloud into the future functions and further success of DGB. <br/>I work as a bridge for DGB, meeting with companies for consultation, discussing what Cloud framework and technology is suitable for the DGB group. </p>
+            <div class="about__major">
+                <div class="major">
+                    <div class="major__icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h2 class="major__title">Front-end</h2>
+                    <div class="major__description">
+                        <span class="major__detail">HTML5</span><span class="major__detail">CSS</span><span class="major__detail">Javascript</span>
+                    </div>
+                </div>
+                <div class="major">
+                    <div class="major__icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h2 class="major__title">Back-end</h2>
+                    <div class="major__description"><span class="major__detail">Oracle DB</span><span class="major__detail">MySql</span><span class="major__detail">Java</span></div>
+                </div>
+                <div class="major">
+                    <div class="major__icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h2 class="major__title">Cloud</h2>
+                    <div class="major__description"><span class="major__detail">AWS practitioner certificate</span><br><span class="major__detail">Finacial Cloud Buisiness Management</span></div>
+                </div>
+            </div>
+
+            <div class="about__detail">
+                <div class="about__jobs">
+                    <div class="job">
+                        <h3>work experience</h3>
+                        <!-- <img src="/imgs/dds_logo.png" alt="DataSystem Logo" class="job__logo"> -->
+                        <div class="job__description">
+                            <p class="job__name">Currently working at DGB Datasystem</p>
+                            <p class="job__period">02.01,2018 ~ Until Now</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <span class="border"></span>
+                
+                <div class="about__education">
+                    <div class="education">
+                        <h3>Education</h3>
+                        <p>영남대학교 졸업, 컴퓨터공학과</p>
+                    </div>
+                </div>
+            </div>
+      
+        </div>
+    </section>
+
+
+
+
+    <!-- <section id="about" class="section">
+        <div class="custom-shape-divider-top-1634988995">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        <div class="section__container">
+            <h1>About me</h1>
+            <p>I am currently on the Cloud Business management team at DGB. <br/>I am responsible for leading the DGB group to understand, develop, and adopt cloud into the future functions and further success of DGB. <br/>I work as a bridge for DGB, meeting with companies for consultation, discussing what Cloud framework and technology is suitable for the DGB group. </p>
+            <div class="about__major">
+                <div class="major">
+                    <div class="major__icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h2 class="major__title">Front-end</h2>
+                    <div class="major__description">
+                        <span class="major__detail">HTML5</span><span class="major__detail">CSS</span><span class="major__detail">Javascript</span>
+                    </div>
+                </div>
+                <div class="major">
+                    <div class="major__icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h2 class="major__title">Back-end</h2>
+                    <div class="major__description"><span class="major__detail">Oracle DB</span><span class="major__detail">MySql</span><span class="major__detail">Java</span></div>
+                </div>
+                <div class="major">
+                    <div class="major__icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h2 class="major__title">Cloud</h2>
+                    <div class="major__description"><span class="major__detail">AWS practitioner certificate</span><br><span class="major__detail">Finacial Cloud Buisiness Management</span></div>
+                </div>
+            </div>
+
+            <div class="about__detail">
+                <div class="about__jobs">
+                    <div class="job">
+                        <h3>work experience</h3>
+                        <!-- <img src="/imgs/dds_logo.png" alt="DataSystem Logo" class="job__logo"> -->
+                        <div class="job__description">
+                            <p class="job__name">Currently working at DGB Datasystem</p>
+                            <p class="job__period">02.01,2018 ~ Until Now</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <span class="border"></span>
+                
+                <div class="about__education">
+                    <div class="education">
+                        <h3>Education</h3>
+                        <p>영남대학교 졸업, 컴퓨터공학과</p>
+                    </div>
+                </div>
+            </div>
+      
+        </div>
+    </section> -->
+
+    
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <div class="section__container">
+            <h1>Skills</h1>
+            <h2>Skills & Attributes</h2>
+            <p> I am currently on the Cloud Business management team at DGB. I am responsible for leading the DGB group to understand, develop, and adopt cloud into the future functions and further success of DGB. I work as a bridge for DGB, meeting with companies for consultation, discussing what Cloud framework and technology is suitable for the DGB group.</p>
+    
+            <div class="skillset">
+                <div class="skillset__left">
+                    <h3 class="skillset__title">Skills</h3>
+                        <div class="skill">
+                            <span>HTML</span>
+                            <span>99%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width :99%;"></div>
+                        </div>
+                        <div class="skill">
+                            <span>CSS</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width :80%;"></div>
+                        </div>
+                        <div class="skill">
+                            <span>Javascript</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width :70%;"></div>
+                        </div>
+                        <div class="skill">
+                            <span>Oracle SQL</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width :90%;"></div>
+                        </div>
+                        <div class="skill">
+                            <span>C</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width :50%;"></div>
+                        </div>
+                </div>
+    
+                <div class="skillset__right">
+                    <div class="tools">
+                        <h3 class="skillset__title">Tools</h3>
+                        <ul class="tools_list">
+                            <li><span>Visual Studio Code</span></li>
+                            <li><span></span></li>
+                            <li><span></span></li>
+                            <li><span></span></li>
+                            <li><span></span></li>
+                        </ul>
+                    </div>
+                    <div class="etc">
+                        <h3 class="skillset__title">Etc</h3>
+                        <ul class="etc__list">
+                            <li><span>Git</span></li>
+                            <li><span>English</span></li>
+                            <li><span></span></li>
+                        </ul>
+                    </div>
+                </div>   
+            </div>
+        </div>
+      
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="section">
+        <div class="section__container">
+            <h1>My work</h1>
+            <h3>Projects</h3>
+            <div class="work__categories">
+                <button class="category__btn">All<span class="category__cout">5</span></button>
+                <button class="category__btn">Front-end<span class="category__cout">3</span></button>
+                <button class="category__btn">Back-end<span class="category__cout">1</span></button>
+                <button class="category__btn">Mobile<span class="category__cout">1</span></button>
+            </div>
+    
+            <div class="work__projects">
+                <a href="" class="projects" target="blank"></a>
+                <img src="" alt="" class="projects_img">
+                <div class="project__description">
+                    <h3>Youtube Site</h3>
+                    <span>Clone coding with HTML and CSS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <div class="section__container">
+            <h1 class="contact__title">Let's talk</h1>
+            <h2 class="contact__email">choijam1229@gmail.com</h2>
+            <div class="contact__links">
+                <a href="https://github.com/disciplechoi" target="blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <p class="contact__rights">
+                Choijihye - All right reserved
+            </p>
+        </div>
+    </section>
+
+</body>
+</html>

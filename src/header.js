@@ -4,7 +4,7 @@ export default function Header(){
     return (
         <>
             <header className='text-left'>
-                <p className="font-bold">포트폴리오</p>
+                <p className="font-bold text-center">PORTFOLIO</p>
             <div className="pt-16 fade-in-box ">
                 <div>
                     <img className="selfie" src={selfie} alt="selfie" />

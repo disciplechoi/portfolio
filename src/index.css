@@ -83,3 +83,20 @@ body {
     /* background-color : black; */
     border: solid 1px #333333;
 }
+
+/* CSS 파일 또는 스타일 섹션에서 정의 */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* 원하는 시작 위치나 다른 속성으로 조절 가능 */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 0.5s ease-out; /* 애니메이션 지속 시간 및 이징 함수 조절 가능 */
+  }
+  
